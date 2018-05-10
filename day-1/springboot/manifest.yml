@@ -1,0 +1,12 @@
+---  
+applications:
+ - name: alti-helloworld
+   memory: 1G  
+   path: target/gs-spring-boot-0.1.0.jar
+   instances: 1
+   
+  
+   routes:
+   - route: alti-helloworld.cfapps.io
+   
+   timeout: 179
